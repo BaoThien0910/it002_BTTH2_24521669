@@ -12,7 +12,7 @@ bool cNgayThangNam::isNamNhuan()
 }
 bool cNgayThangNam::kiemTra()
 {
-    if(iNam < 0 || iThang > 12 || iThang < 1) return false;
+    if(iNam < 0 || iThang > 12 || iThang < 1 || iNgay <1) return false;
     else {
         switch(iThang)
         {
